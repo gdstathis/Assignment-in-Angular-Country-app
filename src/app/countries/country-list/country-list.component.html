@@ -1,0 +1,15 @@
+<p>country-list works!</p>
+
+<div class="card border-success mb-3" style="max-width: 18rem; " *ngFor="let country of countries">
+    <div class="card-header bg-transparent border-success">
+        <h1>{{country.name}}</h1>
+    </div>
+    <div class="card-body text-success">
+        <img class="card-img-top" src="{{country.flag}}" alt="Card image cap">
+        <p class="card-text">
+        <p><b>Capital: </b>{{country.capital}}
+        <p><b>Region: </b>{{country.region}}
+        </p>
+        <br>
+    </div>
+</div>
