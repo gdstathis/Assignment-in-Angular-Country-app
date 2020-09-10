@@ -26,10 +26,10 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-##
-Angular exercise
-Due September 14, 2020 11:59 PM
-Instructions
+## Angular exercise
+
+### Due September 14, 2020 11:59 PM
+### Instructions
 Create a feature in your Angular app that manages countries.
 
 Ideally, you should create a separate Angular module that will contain one component. The component will be responsible for displaying a list of countries with the following properties:
